@@ -2,16 +2,16 @@ import random
 
 file = open("sample.txt", "r")
 
+testing_period = 4
 words = []
 
 for i, line in enumerate(file):
-	print(i)
 	tidy = line.split("/")
 	
 	words.append([])
 
 	# add word into array
-	words[i].append(tidy[0])
+	words[i].append(tidy[0].strip())
 
 	# add definition
 	words[i].append(tidy[1].strip())
@@ -20,7 +20,10 @@ for i, line in enumerate(file):
 	syns = [syn.strip() for syn in tidy[2].split(",")]
 	words[i].append(syns)
 
-print(random.choice(words)[0])
+
+for_test = random.sample(words, testing_period)
+for i in range(testing_period):
+	print(for_test[i][0])
 
 
 file.close()
