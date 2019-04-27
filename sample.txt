@@ -1,5 +1,5 @@
 astute//shrewd,  clever
-prophetic/Accurately describing or predicting what will happen in the future/predictive, visionary
+prophetic/Accurately describing what will happen in the future/predictive, visionary
 subpoena/A writ ordering a person to attend a court/summons, mandate, court order
 arduous/difficult to accomplish, hard to endure/
 extant/in existence;surviving/
@@ -7,7 +7,13 @@ obscure/not well known/uncertain, vague
 pithy/brief; to the point/concise, direct
 imminent/about to happen/
 venerate/to regard with great respect/idolize
-acolyte/A person who assists in some religious services by carrying out minor duties/follower,disciple
+acolyte/A person who assists in some religious services/follower,disciple
 euphoric/feeling intense excitement and happiness/
 pedant/ one who overemphasizes minor details/stickler
 abeyance/temporary suspension/
+opprobrium/harsh criticism for shameful conduct/censure, disgrace
+parsimonious//frugal, stingy,miserly
+renegade/ one who abandons a group/deserter
+zealot/a person who is fanatical in pursuit of their ideals/enthusiast
+spurious/false; untrue/
+rudimentary/limited to basic principles /elementary, basic
