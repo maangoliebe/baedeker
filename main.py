@@ -1,20 +1,24 @@
 import random
-
 choices = 3				# excluding correct answer 
-testing_period = 10
+
+testing_period = 5
 words = []
 solution = []
+answers = []
 
 
 # HELPER FUNCS
-def optionify(raw):
+def optionify(problem, raw):
 	random.shuffle(raw)
 	for i, option in enumerate(raw):
+		if option == solution[problem]:
+			answers.append(chr(i + 97))
 		print(chr(i + 97), ")", option)
 
-def solution_helper(solution):
+def key(answers):
 	print("-------------------------------------------")
-	print(solution)
+	for i in range(testing_period):
+		print(i + 1, answers[i])
 
 
 # PARSING
@@ -38,7 +42,6 @@ for i, line in enumerate(file):
 file.close()
 
 
-
 # SELECT
 for_test = random.sample(words, testing_period)
 
@@ -52,6 +55,6 @@ for i in range(testing_period):
 		options.append(random.choice(words)[1])
 	options.append(for_test[i][1])
 
-	optionify(options)
+	optionify(i, options)
 
-solution_helper(solution)
+key(answers)
